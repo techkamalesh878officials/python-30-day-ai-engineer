@@ -1,4 +1,3 @@
-#Project: Student Performance Analyzer
 name=input("Enter your name : ")
 tamil=int(input("Enter your tamil marks : "))
 english=int(input("Enter your english marks : "))
@@ -10,7 +9,7 @@ avg=total/5
 high=max(tamil,english,java,datasys,ora)
 low=min(tamil,english,java,datasys,ora)
 #status
-if(tamil and english and java and datasys and ora >=40):
+if(tamil >=40 and english >=40 and java >=40 and datasys >=40 and ora >=40):
   sta="Pass :) Take it easy!"
 else:
   sta="Fail :( listen!Try!correct!"
@@ -48,4 +47,3 @@ print(f"Lowest          : {low}")
 print(f'Status          : {sta}')
 print(f'Performance     : {per}')
 print(f'Grade           : {gra}')
-print('='*40)

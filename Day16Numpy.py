@@ -1,0 +1,23 @@
+#Numpy fundamentals
+import numpy as np
+marks=np.array([78,65,90,45,82,56,71,88,39,95])#np.random.randint(1, 100, size=(1,10))    <--if need you can use this for random numbers 
+a80=np.sum(marks>=80)
+pas=np.sum(marks>=40)
+diff=np.max(marks)-np.min(marks)
+sort=np.sort(marks)
+print('========================================')
+print('          NUMPY MARK ANALYZER')
+print('========================================')
+print()
+print(f"Marks             : {marks}")
+print(f'Total Marks       : {np.sum(marks)}')
+print(f'Average Marks     : {np.average(marks)}')
+print(f"Highest Mark      : {np.max(marks)}")
+print(f"Lowest Mark       : {np.min(marks)}")
+print(f"Passed Students   : {pas}")
+print(f"80+ Scorers       : {a80}")
+print()
+print(f'Sorted Marks      : {sort}')
+print(f'Mark Difference   : {diff}')
+print()
+print('========================================')

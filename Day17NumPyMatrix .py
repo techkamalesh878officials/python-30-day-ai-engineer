@@ -1,0 +1,15 @@
+#NumPy Matrix Project
+import numpy as np
+mat=np.random.randint(1,101,size=(5,3))
+print(f'In this matrix rows means students and columns means subject marks : \n\n')
+print(mat)
+print(f"")
+print(f'Total marks of each student : {np.sum(mat,axis=1)}')
+print(f'\nAverage marks of each student : {np.mean(mat,axis=1)}')
+print(f'\nHighest mark in the entire matrix : {np.max(mat)}')
+print(f'\nLowest mark in the entire matrix : {np.min(mat)}')
+print(f'\nSubject-wise average : {np.mean(mat,axis=0)}')
+stumax=np.sum(mat,axis=1)
+print(f"\nStudent with the highest total : {np.argmax(stumax,axis=0)+1}")
+sp=np.all(mat>=40,axis=1)
+print(f"\nNumber of students who passed : {np.sum(sp)}")

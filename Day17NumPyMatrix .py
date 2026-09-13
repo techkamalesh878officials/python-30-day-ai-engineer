@@ -1,10 +1,13 @@
 #NumPy Matrix Project
 import numpy as np
 mat=np.random.randint(1,101,size=(5,3))
-print(f'In this matrix rows means students and columns means subject marks : \n\n')
+print(f'In this matrix, each row means each students and each column means each subject marks : \n\n')
+print(f'Student Marks : ')
 print(mat)
-print(f"")
-print(f'Total marks of each student : {np.sum(mat,axis=1)}')
+print(f'\nShape : {mat.shape}')
+print(f"No. of Students : {len(mat)}")
+print(f"No. of Subjects : {np.shape(mat)[1]}")
+print(f'\nTotal marks of each student : {np.sum(mat,axis=1)}')
 print(f'\nAverage marks of each student : {np.mean(mat,axis=1)}')
 print(f'\nHighest mark in the entire matrix : {np.max(mat)}')
 print(f'\nLowest mark in the entire matrix : {np.min(mat)}')

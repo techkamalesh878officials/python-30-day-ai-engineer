@@ -1,0 +1,31 @@
+Student_ID,Name,Gender,Department,Year,City,Python,Maths,AI,Data_Structures,Database,Attendance,Projects,Study_Hours_Per_Week
+STU1001,Kamalesh,Male,Data Science,3,Coimbatore,81,96,73.0,69,76.0,98.0,1,26
+STU1002,Arun,Female,Computer Science,2,Tirunelveli,88,77,55.0,74,100.0,72.0,5,21
+STU1003,Rahul,Male,Computer Science,1,Tenkasi,37,48,59.0,59,58.0,68.0,1,18
+STU1004,Priya,Female,Data Science,2,Madurai,62,37,42.0,57,91.0,75.0,4,15
+STU1005,Vijay,Male,AI,2,Chennai,72,81,72.0,89,79.0,,3,18
+STU1006,Divya,Female,Data Science,3,Madurai,55,86,66.0,68,90.0,92.0,1,22
+STU1007,Karthik,Male,AI,3,Coimbatore,66,48,89.0,62,64.0,77.0,3,17
+STU1008,Ananya,Male,Computer Science,2,Coimbatore,62,86,45.0,92,62.0,88.0,1,27
+STU1009,Sanjay,Male,AI,1,Madurai,58,63,,49,35.0,82.0,4,12
+STU1010,Meena,Male,Data Science,1,Tirunelveli,54,84,40.0,85,42.0,62.0,4,29
+STU1011,Adithya,Male,Data Science,3,Tirunelveli,94,89,87.0,66,100.0,89.0,1,29
+STU1012,Nithya,Male,Data Science,3,Madurai,57,67,83.0,99,43.0,97.0,2,5
+STU1013,Surya,Female,Computer Science,1,Coimbatore,78,95,79.0,77,74.0,86.0,3,18
+STU1014,Harish,Female,Computer Science,1,Madurai,96,66,77.0,75,60.0,70.0,5,25
+STU1015,Keerthana,Female,Computer Science,3,Salem,56,39,56.0,42,47.0,89.0,3,10
+STU1016,Mohan,Female,Data Science,2,Coimbatore,95,39,100.0,71,87.0,70.0,1,28
+STU1017,Swetha,Male,Information Technology,2,Coimbatore,97,95,84.0,80,48.0,94.0,5,12
+STU1018,Gokul,Male,Information Technology,2,Coimbatore,45,53,100.0,80,80.0,,4,30
+STU1019,Aishwarya,Male,Information Technology,2,Salem,50,47,42.0,91,77.0,79.0,2,19
+STU1020,Dinesh,Male,Computer Science,3,Madurai,50,60,88.0,39,47.0,92.0,3,12
+STU1021,Pavithra,Female,AI,1,Coimbatore,36,50,40.0,100,88.0,87.0,5,16
+STU1022,Bharath,Female,Information Technology,2,Chennai,69,81,40.0,98,,94.0,3,6
+STU1023,Janani,Female,Information Technology,3,Salem,80,71,56.0,88,96.0,64.0,2,28
+STU1024,Rohit,Female,Data Science,1,Madurai,81,98,98.0,70,94.0,67.0,4,22
+STU1025,Sneha,Male,Information Technology,2,Tirunelveli,100,78,93.0,52,66.0,83.0,3,22
+STU1026,Manoj,Male,Computer Science,1,Madurai,97,72,39.0,37,92.0,63.0,1,15
+STU1027,Kavya,Female,Information Technology,2,Tirunelveli,98,91,39.0,93,77.0,69.0,1,9
+STU1028,Sathish,Female,Computer Science,1,Salem,57,93,68.0,88,77.0,96.0,4,15
+STU1029,Varun,Female,Data Science,2,Madurai,65,35,38.0,69,90.0,95.0,2,5
+STU1030,Deepika,Female,Data Science,2,Tirunelveli,90,99,92.0,77,69.0,99.0,4,19

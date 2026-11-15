@@ -1,5 +1,5 @@
 #day25-model evaluation project
-import numpy as np, pandas as pd
+import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.datasets import load_breast_cancer
 from sklearn.linear_model import LogisticRegression#model 1
@@ -7,7 +7,7 @@ from sklearn.tree import DecisionTreeClassifier#model 2
 from sklearn.ensemble import RandomForestClassifier#model 3
 from sklearn.model_selection import train_test_split, cross_val_score
 from sklearn.preprocessing import StandardScaler
-from sklearn.metrics import accuracy_score, classification_report, confusion_matrix, ConfusionMatrixDisplay, roc_curve, auc, RocCurveDisplay
+from sklearn.metrics import accuracy_score, confusion_matrix, roc_curve, auc
 from sklearn.pipeline import make_pipeline
 data = load_breast_cancer()
 lbc = pd.DataFrame(data.data,columns=data.feature_names)
@@ -44,7 +44,7 @@ roc_auc=auc(fpr,tpr)
 print(f"\nROC AUC [Logistic Regression]:{roc_auc:.4f}\n")
 r_c=plt.figure(figsize=(6, 5))
 r_c=plt.plot(fpr,tpr,label=f"AUC = {roc_auc:.4f}")
-r_c=plt.plot([0,2],[0,2],'r--',label="Random guess")
+r_c=plt.plot([0,1],[0,1],'r--',label="Random guess")
 r_c=plt.title("ROC curve - Logistic Regression")
 r_c=plt.xlabel("False positive Rate")
 r_c=plt.ylabel("True positive Rate")
